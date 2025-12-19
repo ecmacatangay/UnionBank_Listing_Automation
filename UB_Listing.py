@@ -8,8 +8,7 @@ from selenium.common.exceptions import (
     ElementClickInterceptedException, ElementNotInteractableException, NoSuchElementException
 )
 from urllib.parse import urlparse, parse_qs
-import time, csv
-asdasd
+import time, csv, os, pandas as pd, re
 # Keep Chrome Browser Open
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
@@ -22,8 +21,9 @@ driver.get("https://www.unionbankph.com/foreclosed-properties?page=1&min_bid_pri
 wait = WebDriverWait(driver, 15)
 
 clicks = 0
-max_clicks = 5  # safety cap
+max_clicks = 3  # safety cap
 per_click_timeout = 10
+
 
 
 price_collections = []
@@ -72,11 +72,7 @@ while clicks < max_clicks:
                 "Link":link_collections[i]
             }
             
-        for x, y in listings.items():
-         print(y['Address'], y['Lot'],y['Price'],y['Link'])
-            # 1) Locate the RIGHT ARROW'S clickable ancestor reliably each loop
-            # Prefer an anchor <a> or button <button> ancestor of the SVG
-            # Try anchor first (most paginations use links)
+
         try:
             target = wait.until(EC.presence_of_element_located(
                 (By.XPATH, "//*[name()='svg' and @data-icon='right']/ancestor::a[1]")
@@ -137,13 +133,72 @@ list_collection = list(listings.values())
 #items_list = list(my_dict.items())
 
 
-# Save to CSV
+# # Save to CSV
 
-with open("listings.csv", "w", newline="", encoding="utf-8") as file:
+# with open("listings.csv", "w", newline="", encoding="utf-8") as file:
+#     writer = csv.DictWriter(file, fieldnames=["Address", "Lot", "Price","Link"])
+#     writer.writeheader()
+#     writer.writerows(list_collection)
+
+
+root = r"D:\Desktop\Python\Web_Scraping"
+path = "UnionBank_Listing_Automation"
+filename = "listings.csv"
+
+# Construct the full path
+file_path = os.path.join(root, path, filename)
+
+# Open the file for writing
+with open(file_path, "w", newline="", encoding="utf-8") as file:
     writer = csv.DictWriter(file, fieldnames=["Address", "Lot", "Price","Link"])
     writer.writeheader()
     writer.writerows(list_collection)
 
-print("Done.")
+file_path = os.path.join(root, path, filename)
 
+df = pd.read_csv(file_path, encoding="utf-8")
+
+
+def clean_real_estate_data():
+    """
+    Cleans Address, Lot, and Price columns:
+    - Address: extracts Province only
+    - Lot: extracts LA if present, else FA, converts to numeric
+    - Price: removes Php/₱, commas, converts to numeric
+    """
+    # --- Clean Address (Province only) ---
+    
+    df['Address'] = df['Address'].str.split(",").str[-1].str.strip()
+    # --- Clean Lot ---
+    def extract_area(text):
+        la_match = re.search(r'LA:\s*(\d+)', str(text))
+        if la_match:
+            return la_match.group(1)
+        fa_match = re.search(r'FA:\s*(\d+)', str(text))
+        if fa_match:
+            return fa_match.group(1)
+        return None
+    
+    df['Lot'] = df['Lot'].apply(extract_area)
+    df['Lot'] = df['Lot'].str.replace("sqm","",regex=False)  # remove unit
+    df['Lot'] = df['Lot'].str.replace(",","")                # remove commas
+    df['Lot'] = pd.to_numeric(df['Lot'], errors='coerce')    # convert to number
+    
+    # --- Clean Price ---
+    df['Price'] = df['Price'].str.replace("Php","",regex=False)
+    df['Price'] = df['Price'].str.replace("₱","",regex=False)
+    df['Price'] = df['Price'].str.replace(",","")            # remove commas
+    df['Price'] = df['Price'].str.strip()                    # remove spaces
+    df['Price'] = pd.to_numeric(df['Price'], errors='coerce') # convert to number
+    
+    return df
+
+#Save Clean Data
+df = clean_real_estate_data()
+
+clean_data = "clean_real_estate.csv"
+# Construct the full path
+file_path = os.path.join(root, path, clean_data)
+
+df.to_csv(file_path,index=False)
 
