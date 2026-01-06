@@ -1,0 +1,23 @@
+[33mcommit c3b1e3dc0c4da396f42390c99229ba5cde99b543[m[33m ([m[1;36mHEAD -> [m[1;32mSecondImprovement[m[33m, [m[1;31morigin/improvement[m[33m, [m[1;32mimprovement[m[33m)[m
+Author: Erson <43384220+ecmacatangay@users.noreply.github.com>
+Date:   Fri Dec 19 08:59:43 2025 +0800
+
+    Add Data Cleaning and Standardize on Address, Lot, and Price
+
+[33mcommit 8346b423c4f4cfe668cc953cd7fd142ffd00dc8a[m
+Author: Erson <43384220+ecmacatangay@users.noreply.github.com>
+Date:   Thu Dec 18 16:46:11 2025 +0800
+
+    Added Libraries
+
+[33mcommit 1c8d776590fa49e3319d0c65db9a439a0d5d69f7[m
+Author: Erson <43384220+ecmacatangay@users.noreply.github.com>
+Date:   Thu Dec 18 16:30:18 2025 +0800
+
+    Remove Libraries
+
+[33mcommit 05714ed2ba7723a4b425af8a2b70f45467ec71c3[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Erson <43384220+ecmacatangay@users.noreply.github.com>
+Date:   Thu Dec 18 16:14:00 2025 +0800
+
+    First Version of Unionbank Foreclose Properties Listing Automation

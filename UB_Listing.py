@@ -1,4 +1,3 @@
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -9,6 +8,14 @@ from selenium.common.exceptions import (
 )
 from urllib.parse import urlparse, parse_qs
 import time, csv, os, pandas as pd, re
+from datetime import datetime
+from datetime import datetime
+import time
+import get_Brgy_City, statistics, get_LatLong
+
+now = datetime.now()
+print(f"Execution starts: {now}")
+
 # Keep Chrome Browser Open
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
@@ -21,7 +28,7 @@ driver.get("https://www.unionbankph.com/foreclosed-properties?page=1&min_bid_pri
 wait = WebDriverWait(driver, 15)
 
 clicks = 0
-max_clicks = 3  # safety cap
+max_clicks = 2  # safety cap
 per_click_timeout = 10
 
 
@@ -128,7 +135,7 @@ while clicks < max_clicks:
     except NoSuchElementException:
         print(f"Stopped: Next control not found. Total clicks: {clicks}")
         break
-print(len(listings))
+print(f"There are {len(listings)} records")
 list_collection = list(listings.values())
 #items_list = list(my_dict.items())
 
@@ -195,6 +202,7 @@ def clean_real_estate_data():
 
 #Save Clean Data
 df = clean_real_estate_data()
+df = df.drop_duplicates(subset=["Address", "Price"])
 
 clean_data = "clean_real_estate.csv"
 # Construct the full path
@@ -202,3 +210,16 @@ file_path = os.path.join(root, path, clean_data)
 
 df.to_csv(file_path,index=False)
 
+after = datetime.now()
+
+print(f"Time Completed: {after-now}")
+
+print(f"Get Barangay City Started: {now}")
+get_Brgy_City.main()
+print(f"Get Barangay City Time Completed: {after-now}")
+print(f"Statistics Execution Process Started {now}")
+statistics.main()
+print(f"Statistics Process Completed: {after-now}")
+print(f"Getting Lat Long Started {now}")
+get_LatLong.main()
+print(f"Lat Long Process Completed: {after-now}")
