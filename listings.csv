@@ -1,22 +1,217 @@
-Address,Lot,Price,Link
-"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/foreclosed-properties/6251
-"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/foreclosed-properties/6273
-"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/foreclosed-properties/6291
-"Calamba City, Laguna",FA: 48 sqm • LA: 106 sqm,"Php 1,598,850",https://www.unionbankph.com/foreclosed-properties/6310
-"Lucena, Quezon",FA: 270 sqm • LA: 120 sqm,"Php 4,114,250",https://www.unionbankph.com/foreclosed-properties/6671
-"Cabanatuan City, Nueva Ecija","LA: 2,250 sqm","Php 2,951,000",https://www.unionbankph.com/foreclosed-properties/3354
-"Tanza, Cavite",LA: 615 sqm,"Php 4,919,000",https://www.unionbankph.com/foreclosed-properties/3447
-"San Pedro, Laguna",LA: 212 sqm,"Php 2,819,600",https://www.unionbankph.com/foreclosed-properties/5340
-"Teresa, Rizal",FA: 43 sqm • LA: 62 sqm,"Php 1,722,400",https://www.unionbankph.com/foreclosed-properties/5403
-"Davao City, Davao",FA: 375 sqm • LA: 330 sqm,"Php 12,667,000",https://www.unionbankph.com/foreclosed-properties/5583
-"Las Piñas, NCR",FA: 62 sqm • LA: 50 sqm,"Php 1,049,000",https://www.unionbankph.com/foreclosed-properties/6030
-"Calamba City, Laguna",FA: 48 sqm • LA: 128 sqm,"Php 1,701,700",https://www.unionbankph.com/foreclosed-properties/6225
-"Calamba City, Laguna",FA: 48 sqm • LA: 84 sqm,"Php 1,496,000",https://www.unionbankph.com/foreclosed-properties/6245
-"Calamba City, Laguna",FA: 48 sqm • LA: 95 sqm,"Php 1,547,430",https://www.unionbankph.com/foreclosed-properties/6268
-"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/foreclosed-properties/6285
-"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/foreclosed-properties/6305
-"Pasay City, NCR",LA: 31 sqm,"Php 4,914,000",https://www.unionbankph.com/foreclosed-properties/6639
-"Oton, Iloilo",LA: 176 sqm,"Php 1,157,800",https://www.unionbankph.com/foreclosed-properties/7064
-"Parañaque City, NCR",FA: 29 sqm,"Php 4,216,000",https://www.unionbankph.com/foreclosed-properties/3302
-"Tanza, Cavite",LA: 717 sqm,"Php 5,734,000",https://www.unionbankph.com/foreclosed-properties/3439
-"Quezon City, NCR",FA: 30 sqm,"Php 4,132,500",https://www.unionbankph.com/foreclosed-properties/5023
+Address,Lot,Price,Image_Link,Link
+"Teresa, Rizal",FA: 43 sqm • LA: 62 sqm,"Php 1,722,400",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-13%20135811.png,https://www.unionbankph.com/foreclosed-properties/5403
+"Cagayan de Oro City, Misamis Oriental",FA: 118 sqm • LA: 99 sqm,"Php 4,413,000",https://www.unionbankph.com/sites/default/files/2025-04/Capture_61.PNG,https://www.unionbankph.com/foreclosed-properties/6050
+"Dasmariñas City, Cavite",FA: 177 sqm • LA: 206 sqm,"Php 8,757,470",https://www.unionbankph.com/sites/default/files/2025-06/Capture1_22.PNG,https://www.unionbankph.com/foreclosed-properties/6235
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_43.PNG,https://www.unionbankph.com/foreclosed-properties/6254
+"Calamba City, Misamis Oriental",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_64.PNG,https://www.unionbankph.com/foreclosed-properties/6275
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_79.PNG,https://www.unionbankph.com/foreclosed-properties/6294
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_98.PNG,https://www.unionbankph.com/foreclosed-properties/6312
+"Santa Cruz, Laguna",FA: 122 sqm • LA: 81 sqm,"Php 2,593,440",https://www.unionbankph.com/sites/default/files/2023-02/3_8.PNG,https://www.unionbankph.com/foreclosed-properties/3457
+"Marilao, Bulacan",FA: 104 sqm • LA: 180 sqm,"Php 1,423,000",https://www.unionbankph.com/sites/default/files/2025-04/Capture_16.PNG,https://www.unionbankph.com/foreclosed-properties/5963
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_19.PNG,https://www.unionbankph.com/foreclosed-properties/6229
+"Calamba City, Laguna",FA: 48 sqm • LA: 116 sqm,"Php 1,645,600",https://www.unionbankph.com/sites/default/files/2025-06/Capture_37.PNG,https://www.unionbankph.com/foreclosed-properties/6247
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_54.PNG,https://www.unionbankph.com/foreclosed-properties/6270
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_72.PNG,https://www.unionbankph.com/foreclosed-properties/6288
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_92.PNG,https://www.unionbankph.com/foreclosed-properties/6307
+"BIÑAN, Laguna",LA: 617 sqm,"Php 11,020,300",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-23%20140634.png,https://www.unionbankph.com/foreclosed-properties/5708
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_12.PNG,https://www.unionbankph.com/foreclosed-properties/6219
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_32.PNG,https://www.unionbankph.com/foreclosed-properties/6242
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_49.PNG,https://www.unionbankph.com/foreclosed-properties/6260
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_59.PNG,https://www.unionbankph.com/foreclosed-properties/6282
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_87.PNG,https://www.unionbankph.com/foreclosed-properties/6302
+"Lucena, Quezon",FA: 270 sqm • LA: 120 sqm,"Php 4,114,250",https://www.unionbankph.com/sites/default/files/2025-08/Capture_21.PNG,https://www.unionbankph.com/foreclosed-properties/6671
+"Calamba City, Laguna",FA: 48 sqm • LA: 95 sqm,"Php 1,547,430",https://www.unionbankph.com/sites/default/files/2025-06/Capture_52.PNG,https://www.unionbankph.com/foreclosed-properties/6268
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_63.PNG,https://www.unionbankph.com/foreclosed-properties/6285
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_90.PNG,https://www.unionbankph.com/foreclosed-properties/6305
+"Pasay City, NCR",LA: 31 sqm,"Php 4,914,000",https://www.unionbankph.com/sites/default/files/2025-08/Capture_6.PNG,https://www.unionbankph.com/foreclosed-properties/6639
+"Oton, Iloilo",LA: 176 sqm,"Php 1,157,800",https://www.unionbankph.com/sites/default/files/2025-09/Screenshot%202025-09-18%20173855.png,https://www.unionbankph.com/foreclosed-properties/7064
+"Parañaque City, NCR",FA: 28 sqm,"Php 4,307,000",https://www.unionbankph.com/sites/default/files/2022-11/6_6.PNG,https://www.unionbankph.com/foreclosed-properties/3303
+"Tanza, Cavite",LA: 717 sqm,"Php 5,734,000",https://www.unionbankph.com/sites/default/files/2023-02/A_9.PNG,https://www.unionbankph.com/foreclosed-properties/3440
+"Las Piñas City, NCR",FA: 250 sqm • LA: 544 sqm,"Php 17,311,000",https://www.unionbankph.com/sites/default/files/2024-10/Capture_5.PNG,https://www.unionbankph.com/foreclosed-properties/5080
+"Pasig City, NCR",FA: 64 sqm,"Php 5,969,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-10%20134831.png,https://www.unionbankph.com/foreclosed-properties/5379
+"Davao City, Davao",FA: 52 sqm,"Php 5,632,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-16%20144431.png,https://www.unionbankph.com/foreclosed-properties/5505
+"Las Piñas City, NCR",FA: 169 sqm • LA: 90 sqm,"Php 7,943,000",https://www.unionbankph.com/sites/default/files/2025-03/Screenshot%202025-03-15%20135552.png,https://www.unionbankph.com/foreclosed-properties/5856
+"Carmona, Cavite",FA: 95 sqm • LA: 169 sqm,"Php 6,149,000",https://www.unionbankph.com/sites/default/files/2025-06/Capture_9.PNG,https://www.unionbankph.com/foreclosed-properties/6215
+"Calamba City, Laguna",FA: 48 sqm • LA: 103 sqm,"Php 1,584,830",https://www.unionbankph.com/sites/default/files/2025-06/Capture_25.PNG,https://www.unionbankph.com/foreclosed-properties/6240
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_47.PNG,https://www.unionbankph.com/foreclosed-properties/6258
+"Calamba City, Laguna",FA: 48 sqm • LA: 128 sqm,"Php 1,701,700",https://www.unionbankph.com/sites/default/files/2025-06/Capture_69.PNG,https://www.unionbankph.com/foreclosed-properties/6279
+"Calamba City, Laguna",FA: 48 sqm • LA: 107 sqm,"Php 1,603,530",https://www.unionbankph.com/sites/default/files/2025-06/Capture_84.PNG,https://www.unionbankph.com/foreclosed-properties/6299
+"Municipality Of San Pedro, Laguna",FA: 231 sqm • LA: 180 sqm,"Php 3,900,000",https://www.unionbankph.com/sites/default/files/2025-06/Capture_103.PNG,https://www.unionbankph.com/foreclosed-properties/6317
+"City of Manila, NCR",FA: 45 sqm,"Php 5,014,240",https://www.unionbankph.com/sites/default/files/2025-08/Capture_29.PNG,https://www.unionbankph.com/foreclosed-properties/6678
+"Imus City, Cavite",FA: 94 sqm • LA: 66 sqm,"Php 3,755,000",https://www.unionbankph.com/sites/default/files/2022-11/8.PNG,https://www.unionbankph.com/foreclosed-properties/3268
+"Tanza, Cavite",LA: 845 sqm,"Php 6,758,000",https://www.unionbankph.com/sites/default/files/2023-02/A.PNG,https://www.unionbankph.com/foreclosed-properties/3432
+"Taguig City, NCR",FA: 59 sqm,"Php 11,505,000",https://www.unionbankph.com/sites/default/files/2024-02/3_4.PNG,https://www.unionbankph.com/foreclosed-properties/4325
+"San Pedro, Laguna",LA: 387 sqm,"Php 5,147,100",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20163216.png,https://www.unionbankph.com/foreclosed-properties/5368
+"Antipolo City, Rizal",LA: 182 sqm,"Php 3,424,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-16%20141352.png,https://www.unionbankph.com/foreclosed-properties/5497
+"Quezon City, NCR",FA: 30 sqm,"Php 4,275,000",https://www.unionbankph.com/sites/default/files/2025-03/Screenshot%202025-03-13%20103615.png,https://www.unionbankph.com/foreclosed-properties/5836
+"Makati City, NCR",FA: 27 sqm,"Php 5,633,830",https://www.unionbankph.com/sites/default/files/2025-06/Capture_8.PNG,https://www.unionbankph.com/foreclosed-properties/6214
+"Calamba City, Laguna",FA: 48 sqm • LA: 88 sqm,"Php 1,514,700",https://www.unionbankph.com/sites/default/files/2025-06/Capture_30.PNG,https://www.unionbankph.com/foreclosed-properties/6239
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_46.PNG,https://www.unionbankph.com/foreclosed-properties/6257
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_68.PNG,https://www.unionbankph.com/foreclosed-properties/6278
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_83.PNG,https://www.unionbankph.com/foreclosed-properties/6298
+"Las Piñas City, NCR",FA: 69 sqm,"Php 2,686,000",https://www.unionbankph.com/sites/default/files/2025-06/Capture_101.PNG,https://www.unionbankph.com/foreclosed-properties/6315
+"City of Manila, NCR",FA: 54 sqm,"Php 4,812,000",https://www.unionbankph.com/sites/default/files/2025-08/Capture_27.PNG,https://www.unionbankph.com/foreclosed-properties/6677
+"Laurel, Batangas",LA: 449 sqm,"Php 6,735,000",https://www.unionbankph.com/sites/default/files/2022-10/PTE%201.PNG,https://www.unionbankph.com/foreclosed-properties/3219
+"Quezon City, NCR",FA: 150 sqm • LA: 50 sqm,"Php 7,020,000",https://www.unionbankph.com/sites/default/files/2023-02/3.1_1.PNG,https://www.unionbankph.com/foreclosed-properties/3428
+"Quezon City, NCR",FA: 41 sqm,"Php 3,847,500",https://www.unionbankph.com/sites/default/files/2024-02/5.PNG,https://www.unionbankph.com/foreclosed-properties/4300
+"San Pedro, Laguna",LA: 374 sqm,"Php 4,974,200",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20154646.png,https://www.unionbankph.com/foreclosed-properties/5361
+"Quezon City, NCR",FA: 29 sqm,"Php 3,625,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-15%20101625_1.png,https://www.unionbankph.com/foreclosed-properties/5449
+"Bulacan, Bulacan",FA: 45 sqm • LA: 48 sqm,"Php 2,700,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-23%20142033.png,https://www.unionbankph.com/foreclosed-properties/5711
+"LAS PINAS CITY, NCR",FA: 130 sqm • LA: 65 sqm,"Php 5,720,000",https://www.unionbankph.com/sites/default/files/2025-04/Capture_64.PNG,https://www.unionbankph.com/foreclosed-properties/6054
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_22.PNG,https://www.unionbankph.com/foreclosed-properties/6232
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_39.PNG,https://www.unionbankph.com/foreclosed-properties/6251
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_57.PNG,https://www.unionbankph.com/foreclosed-properties/6273
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_76.PNG,https://www.unionbankph.com/foreclosed-properties/6291
+"Mandaluyong City, NCR",FA: 26 sqm,"Php 4,144,000",https://www.unionbankph.com/sites/default/files/2025-08/Capture_26.PNG,https://www.unionbankph.com/foreclosed-properties/6676
+"Santiago City, Isabela",FA: 170 sqm • LA: 100 sqm,"Php 1,690,000",https://www.unionbankph.com/sites/default/files/2022-10/ATTABAN%201.PNG,https://www.unionbankph.com/foreclosed-properties/3210
+"Quezon City, NCR",FA: 63 sqm,"Php 8,661,000",https://www.unionbankph.com/sites/default/files/2023-02/7.PNG,https://www.unionbankph.com/foreclosed-properties/3423
+"Quezon City, NCR",FA: 32 sqm,"Php 4,977,050",https://www.unionbankph.com/sites/default/files/2024-02/4.4.PNG,https://www.unionbankph.com/foreclosed-properties/4299
+"San Pedro, Laguna",LA: 196 sqm,"Php 2,606,800",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20154149.png,https://www.unionbankph.com/foreclosed-properties/5359
+"Quezon City, NCR",FA: 27 sqm,"Php 3,186,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-15%20101625.png,https://www.unionbankph.com/foreclosed-properties/5448
+"BIÑAN, Laguna",LA: 617 sqm,"Php 11,020,300",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-23%20140634.png,https://www.unionbankph.com/foreclosed-properties/5708
+"Cagayan de Oro City, Misamis Oriental",FA: 118 sqm • LA: 99 sqm,"Php 4,413,000",https://www.unionbankph.com/sites/default/files/2025-04/Capture_61.PNG,https://www.unionbankph.com/foreclosed-properties/6050
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_21.PNG,https://www.unionbankph.com/foreclosed-properties/6231
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture1_36.PNG,https://www.unionbankph.com/foreclosed-properties/6250
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_56.PNG,https://www.unionbankph.com/foreclosed-properties/6272
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_75.PNG,https://www.unionbankph.com/foreclosed-properties/6290
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_94.PNG,https://www.unionbankph.com/foreclosed-properties/6309
+"San Pablo City, Laguna",FA: 97 sqm • LA: 99 sqm,"Php 4,105,630",https://www.unionbankph.com/sites/default/files/2025-08/Capture_20.PNG,https://www.unionbankph.com/foreclosed-properties/6670
+"Cabanatuan City, Nueva Ecija","LA: 2,250 sqm","Php 2,951,000",https://www.unionbankph.com/sites/default/files/2023-01/4.2_1.PNG,https://www.unionbankph.com/foreclosed-properties/3354
+"Tanza, Cavite",LA: 615 sqm,"Php 4,919,000",https://www.unionbankph.com/sites/default/files/2023-02/A_17.PNG,https://www.unionbankph.com/foreclosed-properties/3447
+"San Pedro, Laguna",LA: 212 sqm,"Php 2,819,600",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20103433.png,https://www.unionbankph.com/foreclosed-properties/5340
+"Teresa, Rizal",FA: 43 sqm • LA: 62 sqm,"Php 1,722,400",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-13%20135811.png,https://www.unionbankph.com/foreclosed-properties/5403
+"Davao City, Davao",FA: 375 sqm • LA: 330 sqm,"Php 12,667,000",https://www.unionbankph.com/sites/default/files/2025-01/Capture_25.PNG,https://www.unionbankph.com/foreclosed-properties/5583
+"Las Piñas, NCR",FA: 62 sqm • LA: 50 sqm,"Php 1,049,000",https://www.unionbankph.com/sites/default/files/2025-04/Capture_50.PNG,https://www.unionbankph.com/foreclosed-properties/6030
+"Calamba City, Laguna",FA: 48 sqm • LA: 98 sqm,"Php 1,561,450",https://www.unionbankph.com/sites/default/files/2025-06/Capture_14.PNG,https://www.unionbankph.com/foreclosed-properties/6222
+"Carmona, Cavite",FA: 95 sqm • LA: 169 sqm,"Php 6,149,000",https://www.unionbankph.com/sites/default/files/2025-06/Capture_9.PNG,https://www.unionbankph.com/foreclosed-properties/6215
+"Calamba City, Laguna",FA: 48 sqm • LA: 103 sqm,"Php 1,584,830",https://www.unionbankph.com/sites/default/files/2025-06/Capture_25.PNG,https://www.unionbankph.com/foreclosed-properties/6240
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_47.PNG,https://www.unionbankph.com/foreclosed-properties/6258
+"Calamba City, Laguna",FA: 48 sqm • LA: 128 sqm,"Php 1,701,700",https://www.unionbankph.com/sites/default/files/2025-06/Capture_69.PNG,https://www.unionbankph.com/foreclosed-properties/6279
+"Calamba City, Laguna",FA: 48 sqm • LA: 107 sqm,"Php 1,603,530",https://www.unionbankph.com/sites/default/files/2025-06/Capture_84.PNG,https://www.unionbankph.com/foreclosed-properties/6299
+"Municipality Of San Pedro, Laguna",FA: 231 sqm • LA: 180 sqm,"Php 3,900,000",https://www.unionbankph.com/sites/default/files/2025-06/Capture_103.PNG,https://www.unionbankph.com/foreclosed-properties/6317
+"City of Manila, NCR",FA: 45 sqm,"Php 5,014,240",https://www.unionbankph.com/sites/default/files/2025-08/Capture_29.PNG,https://www.unionbankph.com/foreclosed-properties/6678
+"Imus City, Cavite",FA: 94 sqm • LA: 66 sqm,"Php 3,755,000",https://www.unionbankph.com/sites/default/files/2022-11/8.PNG,https://www.unionbankph.com/foreclosed-properties/3268
+"Tanza, Cavite",LA: 845 sqm,"Php 6,758,000",https://www.unionbankph.com/sites/default/files/2023-02/A.PNG,https://www.unionbankph.com/foreclosed-properties/3432
+"Taguig City, NCR",FA: 59 sqm,"Php 11,505,000",https://www.unionbankph.com/sites/default/files/2024-02/3_4.PNG,https://www.unionbankph.com/foreclosed-properties/4325
+"San Pedro, Laguna",LA: 182 sqm,"Php 2,675,400",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20155251.png,https://www.unionbankph.com/foreclosed-properties/5363
+"Quezon City, NCR",FA: 25 sqm,"Php 3,150,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-15%20133543.png,https://www.unionbankph.com/foreclosed-properties/5454
+"Makati City, NCR",FA: 32 sqm,"Php 3,549,660",https://www.unionbankph.com/sites/default/files/2025-03/Screenshot%202025-03-12%20170136.png,https://www.unionbankph.com/foreclosed-properties/5827
+"GAPAN CITY, Nueva Ecija",FA: 46 sqm • LA: 60 sqm,"Php 2,990,000",https://www.unionbankph.com/sites/default/files/2025-04/Capture_70.PNG,https://www.unionbankph.com/foreclosed-properties/6059
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_23.PNG,https://www.unionbankph.com/foreclosed-properties/6234
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_42.PNG,https://www.unionbankph.com/foreclosed-properties/6253
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_58.PNG,https://www.unionbankph.com/foreclosed-properties/6274
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_78.PNG,https://www.unionbankph.com/foreclosed-properties/6293
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_97.PNG,https://www.unionbankph.com/foreclosed-properties/6311
+"Mandaluyong City, NCR",FA: 32 sqm,"Php 4,799,000",https://www.unionbankph.com/sites/default/files/2025-08/Capture_23.PNG,https://www.unionbankph.com/foreclosed-properties/6673
+"San Mateo, Rizal",LA: 280 sqm,"Php 8,400,000",https://www.unionbankph.com/sites/default/files/2023-01/3.1_4.PNG,https://www.unionbankph.com/foreclosed-properties/3369
+"Quezon City, NCR",FA: 40 sqm,"Php 5,092,000",https://www.unionbankph.com/sites/default/files/2024-06/Capture_26.PNG,https://www.unionbankph.com/foreclosed-properties/4822
+"San Pedro, Laguna",LA: 289 sqm,"Php 6,012,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20161049.png,https://www.unionbankph.com/foreclosed-properties/5366
+"Tanza, Cavite",FA: 127 sqm • LA: 138 sqm,"Php 5,561,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-16%20134250.png,https://www.unionbankph.com/foreclosed-properties/5491
+"Quezon City, NCR",FA: 62 sqm,"Php 7,775,000",https://www.unionbankph.com/sites/default/files/2025-03/Screenshot%202025-03-13%20102901.png,https://www.unionbankph.com/foreclosed-properties/5835
+"Calamba City, Laguna",FA: 48 sqm • LA: 104 sqm,"Php 1,589,500",https://www.unionbankph.com/sites/default/files/2025-06/Capture_6.PNG,https://www.unionbankph.com/foreclosed-properties/6212
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_29.PNG,https://www.unionbankph.com/foreclosed-properties/6238
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_45.PNG,https://www.unionbankph.com/foreclosed-properties/6256
+"Calamba City, Misamis Oriental",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_67.PNG,https://www.unionbankph.com/foreclosed-properties/6277
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_82.PNG,https://www.unionbankph.com/foreclosed-properties/6297
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_100.PNG,https://www.unionbankph.com/foreclosed-properties/6314
+"Mandaluyong City, NCR",FA: 26 sqm,"Php 4,144,000",https://www.unionbankph.com/sites/default/files/2025-08/Capture_26.PNG,https://www.unionbankph.com/foreclosed-properties/6676
+"Santiago City, Isabela",FA: 170 sqm • LA: 100 sqm,"Php 1,690,000",https://www.unionbankph.com/sites/default/files/2022-10/ATTABAN%201.PNG,https://www.unionbankph.com/foreclosed-properties/3210
+"Quezon City, NCR",FA: 63 sqm,"Php 8,661,000",https://www.unionbankph.com/sites/default/files/2023-02/7.PNG,https://www.unionbankph.com/foreclosed-properties/3423
+"Quezon City, NCR",FA: 32 sqm,"Php 4,977,050",https://www.unionbankph.com/sites/default/files/2024-02/4.4.PNG,https://www.unionbankph.com/foreclosed-properties/4299
+"San Pedro, Laguna",LA: 196 sqm,"Php 2,606,800",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20154149.png,https://www.unionbankph.com/foreclosed-properties/5359
+"Quezon City, NCR",FA: 27 sqm,"Php 3,186,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-15%20101625.png,https://www.unionbankph.com/foreclosed-properties/5448
+"BIÑAN, Laguna",LA: 617 sqm,"Php 11,020,300",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-23%20140634.png,https://www.unionbankph.com/foreclosed-properties/5708
+"Cagayan de Oro City, Misamis Oriental",FA: 118 sqm • LA: 99 sqm,"Php 4,413,000",https://www.unionbankph.com/sites/default/files/2025-04/Capture_61.PNG,https://www.unionbankph.com/foreclosed-properties/6050
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_21.PNG,https://www.unionbankph.com/foreclosed-properties/6231
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture1_36.PNG,https://www.unionbankph.com/foreclosed-properties/6250
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_56.PNG,https://www.unionbankph.com/foreclosed-properties/6272
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_66.PNG,https://www.unionbankph.com/foreclosed-properties/6276
+"Calamba City, Laguna",FA: 48 sqm • LA: 128 sqm,"Php 1,701,700",https://www.unionbankph.com/sites/default/files/2025-06/Capture_81.PNG,https://www.unionbankph.com/foreclosed-properties/6296
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_99.PNG,https://www.unionbankph.com/foreclosed-properties/6313
+"Mandaluyong City, NCR",FA: 26 sqm,"Php 5,051,000",https://www.unionbankph.com/sites/default/files/2025-08/Capture_25.PNG,https://www.unionbankph.com/foreclosed-properties/6675
+"Quezon City, NCR",FA: 68 sqm,"Php 8,508,000",https://www.unionbankph.com/sites/default/files/2023-02/6.3.PNG,https://www.unionbankph.com/foreclosed-properties/3422
+"Makati City, NCR",FA: 104 sqm,"Php 26,107,600",https://www.unionbankph.com/sites/default/files/2024-02/2.PNG,https://www.unionbankph.com/foreclosed-properties/4286
+"San Pedro, Laguna",LA: 135 sqm,"Php 1,795,500",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20151809.png,https://www.unionbankph.com/foreclosed-properties/5358
+"Pasig City, NCR",FA: 23 sqm,"Php 3,634,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-15%20091951.png,https://www.unionbankph.com/foreclosed-properties/5445
+"MUNTINLUPA, NCR",FA: 37 sqm,"Php 3,015,630",https://www.unionbankph.com/sites/default/files/2025-01/49.PNG,https://www.unionbankph.com/foreclosed-properties/5699
+"Cagayan de Oro City, Misamis Oriental",FA: 88 sqm • LA: 107 sqm,"Php 4,400,000",https://www.unionbankph.com/sites/default/files/2025-04/Capture_59.PNG,https://www.unionbankph.com/foreclosed-properties/6048
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_20.PNG,https://www.unionbankph.com/foreclosed-properties/6230
+"Calamba City, Laguna",FA: 48 sqm • LA: 86 sqm,"Php 1,505,350",https://www.unionbankph.com/sites/default/files/2025-06/Capture_38.PNG,https://www.unionbankph.com/foreclosed-properties/6248
+"Calamba City, Laguna",FA: 48 sqm • LA: 83 sqm,"Php 1,491,330",https://www.unionbankph.com/sites/default/files/2025-06/Capture_55.PNG,https://www.unionbankph.com/foreclosed-properties/6271
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_73.PNG,https://www.unionbankph.com/foreclosed-properties/6289
+"Calamba City, Laguna",FA: 48 sqm • LA: 145 sqm,"Php 1,781,180",https://www.unionbankph.com/sites/default/files/2025-06/Capture_93.PNG,https://www.unionbankph.com/foreclosed-properties/6308
+"Cagayan De Oro City, Misamis Oriental",FA: 46 sqm • LA: 44 sqm,"Php 1,736,000",https://www.unionbankph.com/sites/default/files/2025-08/Capture_18.PNG,https://www.unionbankph.com/foreclosed-properties/6668
+"San Mateo , Rizal",FA: 42 sqm • LA: 42 sqm,"Php 1,463,000",https://www.unionbankph.com/sites/default/files/2022-11/12.PNG,https://www.unionbankph.com/foreclosed-properties/3318
+"Tanza, Cavite",LA: 709 sqm,"Php 5,670,000",https://www.unionbankph.com/sites/default/files/2023-02/A_15.PNG,https://www.unionbankph.com/foreclosed-properties/3443
+"Laurel, Batangas",FA: 186 sqm,"Php 9,114,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20090133.png,https://www.unionbankph.com/foreclosed-properties/5330
+"Bulacan, Bulacan",FA: 45 sqm • LA: 66 sqm,"Php 2,267,100",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-10%20155007.png,https://www.unionbankph.com/foreclosed-properties/5396
+"Antipolo City, Rizal","LA: 1,021 sqm","Php 18,378,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-21%20142958.png,https://www.unionbankph.com/foreclosed-properties/5560
+"DAVAO CITY, Davao",FA: 46 sqm • LA: 80 sqm,"Php 2,760,000",https://www.unionbankph.com/sites/default/files/2025-01/Capture_15.PNG,https://www.unionbankph.com/foreclosed-properties/5671
+"TANZA, Cavite",FA: 127 sqm • LA: 138 sqm,"Php 6,031,000",https://www.unionbankph.com/sites/default/files/2025-04/Capture_58.PNG,https://www.unionbankph.com/foreclosed-properties/6047
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_19.PNG,https://www.unionbankph.com/foreclosed-properties/6229
+"Calamba City, Laguna",FA: 48 sqm • LA: 116 sqm,"Php 1,645,600",https://www.unionbankph.com/sites/default/files/2025-06/Capture_37.PNG,https://www.unionbankph.com/foreclosed-properties/6247
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_54.PNG,https://www.unionbankph.com/foreclosed-properties/6270
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_72.PNG,https://www.unionbankph.com/foreclosed-properties/6288
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_92.PNG,https://www.unionbankph.com/foreclosed-properties/6307
+"Cebu City, Cebu",FA: 57 sqm,"Php 3,462,230",https://www.unionbankph.com/sites/default/files/2025-08/Capture_14.PNG,https://www.unionbankph.com/foreclosed-properties/6659
+"Sta. Cruz, Laguna",FA: 122 sqm • LA: 81 sqm,"Php 1,195,430",https://www.unionbankph.com/sites/default/files/2025-09/Capture_39.PNG,https://www.unionbankph.com/foreclosed-properties/7097
+"Quezon City, NCR",FA: 62 sqm,"Php 8,680,000",https://www.unionbankph.com/sites/default/files/2022-11/4_10.PNG,https://www.unionbankph.com/foreclosed-properties/3306
+"Tanza, Cavite",LA: 716 sqm,"Php 5,726,000",https://www.unionbankph.com/sites/default/files/2023-02/A_13.PNG,https://www.unionbankph.com/foreclosed-properties/3442
+"Laurel, Batangas",FA: 219 sqm,"Php 10,731,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20085723.png,https://www.unionbankph.com/foreclosed-properties/5329
+"Taguig City, NCR",FA: 78 sqm • LA: 83 sqm,"Php 8,162,590",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-10%20151556.png,https://www.unionbankph.com/foreclosed-properties/5394
+"Dumaguete City, Negros Occidental",FA: 124 sqm • LA: 132 sqm,"Php 5,498,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-16%20150214.png,https://www.unionbankph.com/foreclosed-properties/5512
+"Las Piñas City, NCR",FA: 76 sqm • LA: 53 sqm,"Php 1,138,000",https://www.unionbankph.com/sites/default/files/2025-04/Capture.PNG,https://www.unionbankph.com/foreclosed-properties/5945
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_12.PNG,https://www.unionbankph.com/foreclosed-properties/6219
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_32.PNG,https://www.unionbankph.com/foreclosed-properties/6242
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_49.PNG,https://www.unionbankph.com/foreclosed-properties/6260
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_59.PNG,https://www.unionbankph.com/foreclosed-properties/6282
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_87.PNG,https://www.unionbankph.com/foreclosed-properties/6302
+"Quezon City, NCR",FA: 27 sqm • LA: 13 sqm,"Php 3,034,000",https://www.unionbankph.com/sites/default/files/2025-07/Capture_56.PNG,https://www.unionbankph.com/foreclosed-properties/6513
+"Pasig City, NCR",FA: 139 sqm,"Php 16,602,000",https://www.unionbankph.com/sites/default/files/2022-11/2.2_5.PNG,https://www.unionbankph.com/foreclosed-properties/3305
+"Tanza, Cavite",LA: 717 sqm,"Php 5,734,000",https://www.unionbankph.com/sites/default/files/2023-02/A_11.PNG,https://www.unionbankph.com/foreclosed-properties/3441
+"Calaca City, Batangas","FA: 56 sqm • LA: 3,699 sqm","Php 6,749,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20084211_0.png,https://www.unionbankph.com/foreclosed-properties/5327
+"LAS PIÑAS , NCR",FA: 59 sqm • LA: 6 sqm,"Php 4,335,000",https://www.unionbankph.com/sites/default/files/2025-01/Capture_3.PNG,https://www.unionbankph.com/foreclosed-properties/5389
+"Davao City, Davao",FA: 48 sqm,"Php 3,984,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-16%20144912.png,https://www.unionbankph.com/foreclosed-properties/5507
+"SAN SIMON, Pampanga","LA: 8,978 sqm","Php 8,442,080",https://www.unionbankph.com/sites/default/files/2025-03/Screenshot%202025-03-15%20140740.png,https://www.unionbankph.com/foreclosed-properties/5858
+"Muntinlupa City, NCR",FA: 56 sqm,"Php 3,177,140",https://www.unionbankph.com/sites/default/files/2025-06/Capture_10.PNG,https://www.unionbankph.com/foreclosed-properties/6216
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_31.PNG,https://www.unionbankph.com/foreclosed-properties/6241
+"Calamba City, Laguna",FA: 48 sqm • LA: 110 sqm,"Php 1,617,550",https://www.unionbankph.com/sites/default/files/2025-06/Capture_48.PNG,https://www.unionbankph.com/foreclosed-properties/6259
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_70.PNG,https://www.unionbankph.com/foreclosed-properties/6280
+"Calamba City, Laguna",FA: 48 sqm • LA: 128 sqm,"Php 1,701,700",https://www.unionbankph.com/sites/default/files/2025-06/Capture_86.PNG,https://www.unionbankph.com/foreclosed-properties/6301
+"akati City, Negros Occidental",FA: 44 sqm,"Php 5,679,700",https://www.unionbankph.com/sites/default/files/2025-06/Capture_104.PNG,https://www.unionbankph.com/foreclosed-properties/6318
+"Quezon City, NCR",FA: 27 sqm,"Php 4,947,000",https://www.unionbankph.com/sites/default/files/2025-08/Capture_34.PNG,https://www.unionbankph.com/foreclosed-properties/6683
+"Las Piñas City, NCR",FA: 59 sqm • LA: 6 sqm,"Php 4,335,000",https://www.unionbankph.com/sites/default/files/2022-11/Capture.PNG,https://www.unionbankph.com/foreclosed-properties/3291
+"Tanza, Cavite",LA: 718 sqm,"Php 5,742,000",https://www.unionbankph.com/sites/default/files/2023-02/A_1.PNG,https://www.unionbankph.com/foreclosed-properties/3436
+"DAVAO CITY, Davao",FA: 48 sqm,"Php 3,984,000",https://www.unionbankph.com/sites/default/files/2024-06/Capture_16.PNG,https://www.unionbankph.com/foreclosed-properties/4802
+"San Pedro, Laguna",LA: 180 sqm,"Php 2,646,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20155513.png,https://www.unionbankph.com/foreclosed-properties/5364
+"Quezon City, NCR",FA: 36 sqm,"Php 4,140,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-15%20135017.png,https://www.unionbankph.com/foreclosed-properties/5455
+"Mandaluyong City, NCR",FA: 58 sqm,"Php 4,255,000",https://www.unionbankph.com/sites/default/files/2025-03/Screenshot%202025-03-13%20094513.png,https://www.unionbankph.com/foreclosed-properties/5830
+"Imus City, Cavite",FA: 40 sqm • LA: 54 sqm,"Php 2,430,000",https://www.unionbankph.com/sites/default/files/2025-06/Capture_2.PNG,https://www.unionbankph.com/foreclosed-properties/6208
+"Dasmariñas City, Cavite",FA: 177 sqm • LA: 206 sqm,"Php 8,757,470",https://www.unionbankph.com/sites/default/files/2025-06/Capture1_22.PNG,https://www.unionbankph.com/foreclosed-properties/6235
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_43.PNG,https://www.unionbankph.com/foreclosed-properties/6254
+"Calamba City, Misamis Oriental",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_64.PNG,https://www.unionbankph.com/foreclosed-properties/6275
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_79.PNG,https://www.unionbankph.com/foreclosed-properties/6294
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_98.PNG,https://www.unionbankph.com/foreclosed-properties/6312
+"Mandaluyong City, NCR",FA: 27 sqm,"Php 4,364,000",https://www.unionbankph.com/sites/default/files/2025-08/Capture_24.PNG,https://www.unionbankph.com/foreclosed-properties/6674
+"Quezon City, NCR",FA: 29 sqm,"Php 3,438,830",https://www.unionbankph.com/sites/default/files/2023-01/5_4.PNG,https://www.unionbankph.com/foreclosed-properties/3388
+"Quezon City, NCR",FA: 23 sqm,"Php 2,705,000",https://www.unionbankph.com/sites/default/files/2023-02/4_9.PNG,https://www.unionbankph.com/foreclosed-properties/3458
+"San Pedro, Laguna",LA: 159 sqm,"Php 2,114,700",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-09%20151756.png,https://www.unionbankph.com/foreclosed-properties/5357
+"Manila City, NCR",FA: 21 sqm,"Php 2,717,000",https://www.unionbankph.com/sites/default/files/2025-01/Screenshot%202025-01-14%20102149.png,https://www.unionbankph.com/foreclosed-properties/5428
+"DAVAO CITY, Davao",FA: 46 sqm • LA: 80 sqm,"Php 2,760,000",https://www.unionbankph.com/sites/default/files/2025-01/Capture_15.PNG,https://www.unionbankph.com/foreclosed-properties/5671
+"TANZA, Cavite",FA: 127 sqm • LA: 138 sqm,"Php 6,031,000",https://www.unionbankph.com/sites/default/files/2025-04/Capture_58.PNG,https://www.unionbankph.com/foreclosed-properties/6047
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_19.PNG,https://www.unionbankph.com/foreclosed-properties/6229
+"Calamba City, Laguna",FA: 48 sqm • LA: 116 sqm,"Php 1,645,600",https://www.unionbankph.com/sites/default/files/2025-06/Capture_37.PNG,https://www.unionbankph.com/foreclosed-properties/6247
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_54.PNG,https://www.unionbankph.com/foreclosed-properties/6270
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_72.PNG,https://www.unionbankph.com/foreclosed-properties/6288
+"Calamba City, Laguna",FA: 48 sqm • LA: 80 sqm,"Php 1,477,300",https://www.unionbankph.com/sites/default/files/2025-06/Capture_92.PNG,https://www.unionbankph.com/foreclosed-properties/6307
+"Cebu City, Cebu",FA: 57 sqm,"Php 3,462,230",https://www.unionbankph.com/sites/default/files/2025-08/Capture_14.PNG,https://www.unionbankph.com/foreclosed-properties/6659
+"Sta. Cruz, Laguna",FA: 122 sqm • LA: 81 sqm,"Php 1,195,430",https://www.unionbankph.com/sites/default/files/2025-09/Capture_39.PNG,https://www.unionbankph.com/foreclosed-properties/7097
+"Cabanatuan City, Nueva Ecija","LA: 2,616 sqm","Php 2,402,000",https://www.unionbankph.com/sites/default/files/2022-08/2c%20SARILE%201.PNG,https://www.unionbankph.com/foreclosed-properties/2875
+"San Pedro, Laguna",LA: 289 sqm,"Php 3,843,700",https://www.unionbankph.com/sites/default/files/2022-09/CYPRESS%201.PNG,https://www.unionbankph.com/foreclosed-properties/3178
+"Cabanatuan City, Nueva Ecija","LA: 2,250 sqm","Php 2,066,000",https://www.unionbankph.com/sites/default/files/2022-08/2D.PNG,https://www.unionbankph.com/foreclosed-properties/2876
+"Oton, Iloilo",FA: 108 sqm • LA: 99 sqm,"Php 3,694,000",https://www.unionbankph.com/sites/default/files/2022-10/GUAVA.PNG,https://www.unionbankph.com/foreclosed-properties/3148
+"San Pedro, Laguna",LA: 195 sqm,"Php 2,593,500",https://www.unionbankph.com/sites/default/files/2022-07/812.PNG,https://www.unionbankph.com/foreclosed-properties/2741
+"Pavia, Iloilo",FA: 46 sqm • LA: 102 sqm,"Php 2,142,000",https://www.unionbankph.com/sites/default/files/2022-10/CHUCK.PNG,https://www.unionbankph.com/foreclosed-properties/3153
+"Cabanatuan City, Nueva Ecija","LA: 2,616 sqm","Php 2,402,000",https://www.unionbankph.com/sites/default/files/2022-08/2c%20SARILE%201.PNG,https://www.unionbankph.com/foreclosed-properties/2875
+"San Pedro, Laguna",LA: 289 sqm,"Php 3,843,700",https://www.unionbankph.com/sites/default/files/2022-09/CYPRESS%201.PNG,https://www.unionbankph.com/foreclosed-properties/3178
+"Cabanatuan City, Nueva Ecija","LA: 2,250 sqm","Php 2,066,000",https://www.unionbankph.com/sites/default/files/2022-08/2D.PNG,https://www.unionbankph.com/foreclosed-properties/2876

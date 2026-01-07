@@ -14,20 +14,20 @@ MAX_RETRIES = 2                    # retry on transient errors
 
 def read_5th_column_as_address(filepath: str) -> pd.DataFrame:
     """
-    Read the CSV and create a normalized 'address' column sourced from the 5th column
-    (column POSITION, 0-based index 4), regardless of its header name.
+    Read the CSV and create a normalized 'address' column sourced from the 6th column
+    (column POSITION, 0-based index 5), regardless of its header name.
     """
     df = pd.read_csv(filepath)
-    if df.shape[1] < 5:
-        raise ValueError("CSV must have at least 5 columns to use the 5th column as address.")
+    if df.shape[1] < 6:
+        raise ValueError("CSV must have at least 6 columns to use the 6th column as address.")
 
     # 5th column by position
-    fifth_col_name = df.columns[4]   # for logging/reference
-    df = df.copy()
-    df["address_COPY"] = df.iloc[:, 4].astype(str).str.strip()
+    # fifth_col_name = df.columns[5]   # for logging/reference
+    # df = df.copy()
+    # df["address_COPY"] = df.iloc[:, 5].astype(str).str.strip()
 
     # Keep all rows (even if address is empty); we'll mark failed geocodes as NULL
-    return df, fifth_col_name
+    return df#, fifth_col_name
 
 def geocode_addresses_no_hint_with_nulls(
     df: pd.DataFrame,
@@ -49,7 +49,7 @@ def geocode_addresses_no_hint_with_nulls(
     cache: Dict[str, Optional[tuple]] = {}
     lats, longs = [], []
 
-    for i, raw in enumerate(df["address_COPY"].astype(str)):
+    for i, raw in enumerate(df["Title"].astype(str)):
         query = raw.strip()  # no country hint
 
         # Cache repeated addresses to save requests
@@ -95,8 +95,10 @@ def geocode_addresses_no_hint_with_nulls(
     return df
 
 def main():
-    df_src, fifth = read_5th_column_as_address(INPUT_CSV)
-    print(f"Loaded {len(df_src)} rows from {INPUT_CSV}. Using 5th column '{fifth}' as address input (no country hint).")
+    df_src= read_5th_column_as_address(INPUT_CSV)
+    print(f"Loaded {len(df_src)} rows from {INPUT_CSV}." )
+      
+        #Using 5th column '{fifth}' as address input (no country hint).")
 
     df_geo = geocode_addresses_no_hint_with_nulls(
         df_src,

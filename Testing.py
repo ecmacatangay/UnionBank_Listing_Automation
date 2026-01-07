@@ -1,30 +1,41 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import (
-    TimeoutException, StaleElementReferenceException,
-    ElementClickInterceptedException, ElementNotInteractableException, NoSuchElementException
-)
-from urllib.parse import urlparse, parse_qs
-import time, csv, os, pandas as pd, re
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_experimental_option("detach", True)
-driver = webdriver.Chrome(options=chrome_options)
+import pandas as pd, os, numpy as np
+import folium
+ROOT = r"D:\Desktop\Python\Web_Scraping"
+PATH = "UnionBank_Listing_Automation"
+FILENAME = "listings_geocoded.csv"
+FILE_PATH = os.path.join(ROOT, PATH, FILENAME)
+def main():
 
-driver.set_page_load_timeout(30)
-driver.get("https://www.unionbankph.com/foreclosed-properties?page=1&min_bid_price=0&max_bid_price=0&type_of_property=Residential&type_of_residential=House%20and%20Lot&location=&city=&lot_area=0&floor_area=0&sort_by_price=")
+ df = pd.read_csv(FILE_PATH)
 
-wait = WebDriverWait(driver, 15)
-image_field = driver.find_elements(By.TAG_NAME, "img")
-image_collections = []
+ m = folium.Map(location=[14.583, 121.063], zoom_start=13, tiles="OpenStreetMap")
 
 
-# Print the href values
-for img in image_field:
-    src = img.get_attribute("src")
-    image_collections.append(src)
-  #  print(img.text)
+ for _, row in df.iterrows():
+      # Skip rows where lat or long is NaN
+      if pd.isna(row["lat"]) or pd.isna(row["long"]):
+          continue
 
-print(len(image_collections))
-print(image_collections)
+      popup_html = f"""
+      <div style="width:240px">
+        <h4 style="margin:0">{row['Title']}</h4>
+        <h5 style="margin:0">{row['Lot Description']}</h5>
+        <p style="margin:0">₱{row['Price']:,.0f} — {row['Lot']} sqm</p>
+        <img src="{row['Image_Link']}" width="220" style="margin-top:5px"/>
+      </div>
+      """
+
+      folium.Marker(
+          location=[row["lat"], row["long"]],
+          popup=folium.Popup(popup_html, max_width=260),
+          tooltip="Click for photo",
+          icon=folium.Icon(color="darkblue", icon="home")
+      ).add_to(m)
+      m.save("map_markers_TEST.html")
+
+
+
+print("Saved map_markers.html (tip: serve via `python -m http.server 8000` and open http://localhost:8000/map_markers.html)")
+
+if __name__ == "__main__":
+    main()

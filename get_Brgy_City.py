@@ -1,6 +1,6 @@
 
 # selenium_extract_titles.py
-import time,os,re, Testing
+import time,os,re#, Testing
 import pandas as pd
 from typing import Optional
 from selenium import webdriver
@@ -164,7 +164,6 @@ def extract_lot_description(driver: webdriver.Chrome) -> str:
     except Exception:
         pass
     return "(unknown)"
-
 
 def main():
     # 1) Read CSV

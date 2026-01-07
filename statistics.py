@@ -212,7 +212,7 @@ def analyze_file(filepath: str,
 
 def main():
     results = analyze_file(
-        "clean_real_estate.csv",                     # <-- replace with your file name/path
+        "titles.csv",                     # <-- replace with your file name/path
         budget=6_000_000,                   # optional
        # location_prefs={"NCR": 0.5},  # optional boosts
         weights={"value": 0.5, "size": 0.3, "location": 0.2}  # optional tuning

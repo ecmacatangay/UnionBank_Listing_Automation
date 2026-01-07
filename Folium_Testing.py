@@ -1,31 +1,3 @@
-
-# import folium
-# import pandas as pd
-
-# # Example data
-# df = pd.DataFrame({
-#     "address": ["Ortigas Center, Pasig", "Kapitolyo, Pasig", "Tanza Cavite" ],
-#     "lat": [14.586, 14.566, 14.301772],
-#     "lon": [121.060, 121.056, 120.816555],
-#     "price": [5000000, 4200000,5742000],
-#     "lot": [120, 95, 718]
-# })
-
-
-
-# m = folium.Map(location=[14.583, 121.063], zoom_start=13)
-
-# for _, row in df.iterrows():
-#     popup = f"{row['address']}<br>₱{row['price']:,.0f}<br>{row['lot']} sqm"
-#     folium.Marker(
-#         location=[row["lat"], row["lon"]],
-#         popup=popup,
-#         tooltip="Click for photo",
-#         icon=folium.Icon(color="green", icon="home")
-#     ).add_to(m)
-
-# m.save("map_markers.html")
-
 import folium
 import pandas as pd
 
