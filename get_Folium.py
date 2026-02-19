@@ -22,6 +22,9 @@ def main():
         <h5 style="margin:0">{row['Lot Description']}</h5>
         <p style="margin:0">₱{row['Price']:,.0f} — {row['Lot']} sqm</p>
         <img src="{row['Image_Link']}" width="220" style="margin-top:5px"/>
+        <p style="margin:0">
+        <a href="{row['Link']}"">View Listing</a>
+        </p>
       </div>
       """
 
@@ -31,7 +34,7 @@ def main():
           tooltip="Click for photo",
           icon=folium.Icon(color="darkblue", icon="home")
       ).add_to(m)
-      m.save("map_markers_TEST.html")
+      m.save("index.html")
 
 
 

@@ -10,7 +10,7 @@ from urllib.parse import urlparse, parse_qs
 import time, csv, os, pandas as pd, re
 from datetime import datetime
 from datetime import datetime
-import time, get_Brgy_City, statistics, get_LatLong, Testing
+import time, get_Brgy_City, statistics, get_LatLong, get_Folium
 # import get_Brgy_City, statistics, get_LatLong
 
 now = datetime.now()
@@ -220,5 +220,5 @@ print(f"Getting Lat Long Started {now}")
 get_LatLong.main()
 print(f"Lat Long Process Completed: {after-now}")
 print(f"Creating MAPPING Started {now}")
-Testing.main()
+get_Folium.main()
 print(f"MAP Creation Completed: {after-now}")
