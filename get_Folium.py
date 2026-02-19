@@ -17,6 +17,7 @@ def main():
           continue
 
       popup_html = f"""
+<<<<<<< HEAD:Testing.py
         <div style="width:240px">
             <h4 style="margin:0">{row['Title']}</h4>
             <h5 style="margin:0">{row['Lot Description']}</h5>
@@ -28,6 +29,18 @@ def main():
         </div>
         """
 
+=======
+      <div style="width:240px">
+        <h4 style="margin:0">{row['Title']}</h4>
+        <h5 style="margin:0">{row['Lot Description']}</h5>
+        <p style="margin:0">₱{row['Price']:,.0f} — {row['Lot']} sqm</p>
+        <img src="{row['Image_Link']}" width="220" style="margin-top:5px"/>
+        <p style="margin:0">
+        <a href="{row['Link']}"">View Listing</a>
+        </p>
+      </div>
+      """
+>>>>>>> ThirdImprovement:get_Folium.py
 
       folium.Marker(
           location=[row["lat"], row["long"]],
