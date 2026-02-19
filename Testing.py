@@ -17,13 +17,17 @@ def main():
           continue
 
       popup_html = f"""
-      <div style="width:240px">
-        <h4 style="margin:0">{row['Title']}</h4>
-        <h5 style="margin:0">{row['Lot Description']}</h5>
-        <p style="margin:0">₱{row['Price']:,.0f} — {row['Lot']} sqm</p>
-        <img src="{row['Image_Link']}" width="220" style="margin-top:5px"/>
-      </div>
-      """
+        <div style="width:240px">
+            <h4 style="margin:0">{row['Title']}</h4>
+            <h5 style="margin:0">{row['Lot Description']}</h5>
+            <p style="margin:0">₱{row['Price']:,.0f} — {row['Lot']} sqm</p>
+            <img src="{row['Image_Link']}" width="220" style="margin-top:5px"/>
+            <h5 style="margin-top:10px">
+                <a href="{row['Link']}" target="_blank">View Listing</a>
+            </h5>
+        </div>
+        """
+
 
       folium.Marker(
           location=[row["lat"], row["long"]],
@@ -31,7 +35,7 @@ def main():
           tooltip="Click for photo",
           icon=folium.Icon(color="darkblue", icon="home")
       ).add_to(m)
-      m.save("map_markers_TEST.html")
+      m.save("index.html")
 
 
 
